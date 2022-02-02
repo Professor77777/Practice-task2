@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(/font-Poppins/Poppins-Regular.ttf);
+  font-family: Poppins-Medium;
+  src: url(/font-Poppins/Poppins-Medium.ttf);
+  font-family: Poppins-SemiBold;
+  src: url(/font-Poppins/Poppins-SemiBold.ttf);
+}
+
+body header {
+  overflow: hidden;
+}
+
+body header .container-fluid .title {
+  width: 100%;
+  margin: 10px 60px;
+}
+
+body header .container-fluid .title h1 {
+  font-family: Poppins-Regular;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+body header .container-fluid .line {
+  margin-bottom: 96px;
+}
+
+body header .container-fluid .line img {
+  width: 100%;
+}
+
+body header .container-fluid .fonts {
+  width: 90%;
+  height: 120px;
+  margin: 0 60px;
+  background-color: #eef4fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .container-fluid .fonts .font--1 button {
+  border: none;
+  background: none;
+}
+
+body header .container-fluid .fonts .font--1 button img {
+  width: 41px;
+  height: 41px;
+  margin: 40px 0px 40px 50px;
+}
+
+body header .container-fluid .fonts .font--1 .font-web {
+  text-decoration: none;
+}
+
+body header .container-fluid .fonts .font--1 .font-web h2 {
+  font-family: Poppins-Medium;
+  font-style: medium;
+  font-size: 36px;
+  margin: 40px 20px;
+  color: #000000;
+}
+
+body header .container-fluid .fonts .font--2 img {
+  width: 68px;
+  height: 53px;
+  margin: 30px 10px 30px 130px;
+}
+
+body header .container-fluid .fonts .font--2 .font-web {
+  margin: 42px 50px 42px 10px;
+  text-decoration: none;
+}
+
+body header .container-fluid .fonts .font--2 .font-web h4 {
+  font-family: Poppins-SemiBold;
+  font-size: 24px;
+  color: #000000;
+}
+
+body header .container-fluid .heading-text .column--1 {
+  margin-top: 96px;
+}
+
+body header .container-fluid .heading-text .column--1 h1,
+body header .container-fluid .heading-text .column--1 h2,
+body header .container-fluid .heading-text .column--1 h3,
+body header .container-fluid .heading-text .column--1 h4,
+body header .container-fluid .heading-text .column--1 h5,
+body header .container-fluid .heading-text .column--1 h6 {
+  margin: 0px 0 24px 60px;
+}
+
+body header .container-fluid .heading-text .column--1 h6 {
+  margin-bottom: 60px;
+}
+
+body header .container-fluid .heading-text .column--2 {
+  margin: 96px 0 0 96px;
+}
+
+body header .container-fluid .heading-text .column--2 .body--1 h5 {
+  font-family: Poppins-SemiBold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+body header .container-fluid .heading-text .column--2 .body--1 h6 {
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+body header .container-fluid .heading-text .column--2 .body-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .container-fluid .heading-text .column--2 .body-label h5 {
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+body header .container-fluid .heading-text .column--2 .body-label .label-2 h5 {
+  margin-left: 32px;
+}
+
+body header .container-fluid .heading-text .column--2 .body-label .label-2 h6 {
+  margin-left: 32px;
+}
+
+body header .container-fluid .colors {
+  margin: 0 60px 96px 60px;
+}
+
+body header .container-fluid .colors h2 {
+  font-family: Poppins-Regular;
+  font-size: 32px;
+  line-height: 120%;
+  color: #000000;
+}
+
+body header .container-fluid .colors .color-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .container-fluid .colors .color-all .blue {
+  width: 183px;
+  height: 100px;
+  background: #2405f2;
+}
+
+body header .container-fluid .colors .color-all .black {
+  width: 183px;
+  height: 100px;
+  background: #000000;
+}
+
+body header .container-fluid .colors .color-all .grey {
+  width: 183px;
+  height: 100px;
+  background: #f4f6fc;
+}
+
+body header .container-fluid .colors .color-all .yellow {
+  width: 183px;
+  height: 100px;
+  background: #fcd980;
+}
+
+body header .container-fluid .colors .color-all .tint-blue {
+  background: #1c1e53;
+}
+
+body header .container-fluid .colors .color-all .accent {
+  width: 183px;
+  height: 100px;
+  background: #eef4fa;
+}
+
+body header .container-fluid .colors .color-all .light-yellow {
+  width: 183px;
+  height: 100px;
+  background: rgba(252, 217, 128, 0.1);
+}
+
+body header .container-fluid .btn--hover .line--1 .yellow--first {
+  background: #fcd980;
+  border-radius: 40px;
+}
+/*# sourceMappingURL=index.css.map */

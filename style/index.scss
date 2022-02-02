@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(/font-Poppins/Poppins-Regular.ttf);
+  font-family: Poppins-Medium;
+  src: url(/font-Poppins/Poppins-Medium.ttf);
+  font-family: Poppins-SemiBold;
+  src: url(/font-Poppins/Poppins-SemiBold.ttf);
+}
+$ColorDrak: #000000;
+$ColorWhite: #ffffff;
+$ColorNavy: #1c1e53;
+$ColorYellow: #fcd980;
+
+body {
+  // overflow: hidden;
+  header {
+    overflow: hidden;
+    .container-fluid {
+      .title {
+        width: 100%;
+        margin: 10px 60px;
+        h1 {
+          font-family: Poppins-Regular;
+          font-size: 36px;
+          line-height: 44px;
+          color: $ColorDrak;
+        }
+      }
+      .line {
+        margin-bottom: 96px;
+        img {
+          width: 100%;
+        }
+      }
+      .fonts {
+        width: 90%;
+        height: 120px;
+        margin: 0 60px;
+        background-color: #eef4fa;
+        display: flex;
+        justify-content: space-between;
+
+        .font--1 {
+          button {
+            border: none;
+            background: none;
+
+            img {
+              width: 41px;
+              height: 41px;
+              margin: 40px 0px 40px 50px;
+            }
+          }
+          .font-web {
+            text-decoration: none;
+            h2 {
+              font-family: Poppins-Medium;
+              font-style: medium;
+              font-size: 36px;
+              margin: 40px 20px;
+              color: $ColorDrak;
+            }
+          }
+        }
+        .font--2 {
+          // margin-left: 100px;
+          img {
+            width: 68px;
+            height: 53px;
+            margin: 30px 10px 30px 130px;
+          }
+          .font-web {
+            margin: 42px 50px 42px 10px;
+            text-decoration: none;
+            h4 {
+              font-family: Poppins-SemiBold;
+              font-size: 24px;
+              color: $ColorDrak;
+            }
+          }
+        }
+      }
+      .heading-text {
+        .column--1 {
+          margin-top: 96px;
+
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6 {
+            margin: 0px 0 24px 60px;
+          }
+          h6 {
+            margin-bottom: 60px;
+          }
+        }
+        .column--2 {
+          margin: 96px 0 0 96px;
+          .body--1 {
+            h5 {
+              font-family: Poppins-SemiBold;
+              font-size: 24px;
+              line-height: 36px;
+              color: $ColorDrak;
+              opacity: 0.5;
+            }
+            h6 {
+              font-family: Poppins-Medium;
+              font-size: 16px;
+              line-height: 20px;
+              color: $ColorDrak;
+            }
+          }
+          .body-label {
+            display: flex;
+
+            h5 {
+              font-family: Poppins-Medium;
+              font-size: 16px;
+              line-height: 28px;
+              color: $ColorDrak;
+              opacity: 0.5;
+            }
+            .label-2 {
+              h5 {
+                margin-left: 32px;
+              }
+              h6 {
+                margin-left: 32px;
+              }
+            }
+          }
+        }
+      }
+      .colors {
+        margin: 0 60px 96px 60px;
+        h2 {
+          font-family: Poppins-Regular;
+          font-size: 32px;
+          line-height: 120%;
+          color: $ColorDrak;
+        }
+        .color-all {
+          display: flex;
+          .blue {
+            width: 183px;
+            height: 100px;
+            background: #2405f2;
+          }
+          .black {
+            width: 183px;
+            height: 100px;
+            background: $ColorDrak;
+          }
+          .grey {
+            width: 183px;
+            height: 100px;
+            background: #f4f6fc;
+          }
+          .yellow {
+            width: 183px;
+            height: 100px;
+            background: $ColorYellow;
+          }
+          .tint-blue {
+            background: #1c1e53;
+          }
+          .accent {
+            width: 183px;
+            height: 100px;
+            background: #eef4fa;
+          }
+          .light-yellow {
+            width: 183px;
+            height: 100px;
+            background: rgba(252, 217, 128, 0.1);
+          }
+        }
+      }
+      .btn--hover {
+        .line--1 {
+          .yellow--first {
+            background: #fcd980;
+            border-radius: 40px;
+          }
+        }
+      }
+    }
+  }
+}
