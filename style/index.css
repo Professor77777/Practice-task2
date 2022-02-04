@@ -204,8 +204,67 @@ body header .container-fluid .colors .color-all .light-yellow {
   background: rgba(252, 217, 128, 0.1);
 }
 
-body header .container-fluid .btn--hover .line--1 .yellow--first {
+body header .container-fluid .btn--hover h2 {
+  margin: 0 0 36px 60px;
+}
+
+body header .container-fluid .btn--hover .line--1 {
+  margin: 0 0 40px 60px;
+}
+
+body header .container-fluid .btn--hover .line--1 .yellow {
   background: #fcd980;
   border-radius: 40px;
+  border: none;
+  padding: 5px 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .container-fluid .btn--hover .line--1 .yellow h6 {
+  font-family: Poppins-Regular;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+
+body header .container-fluid .btn--hover .line--1 .second {
+  margin-left: 24px;
+  background: #fde4a6;
+}
+
+body header .container-fluid .btn--hover .line--2 {
+  margin: 0 0 20px 60px;
+}
+
+body header .container-fluid .btn--hover .line--2 .black {
+  background: #000000;
+  border-radius: 40px;
+  border: none;
+  padding: 5px 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .container-fluid .btn--hover .line--2 .black h6 {
+  font-family: Poppins-Regular;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+body header .container-fluid .btn--hover .line--2 .second {
+  margin-left: 24px;
+  background: #535460;
 }
 /*# sourceMappingURL=index.css.map */

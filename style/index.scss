@@ -185,10 +185,55 @@ body {
         }
       }
       .btn--hover {
+        h2 {
+          margin: 0 0 36px 60px;
+        }
         .line--1 {
-          .yellow--first {
+          margin: 0 0 40px 60px;
+          .yellow {
             background: #fcd980;
             border-radius: 40px;
+            border: none;
+            padding: 5px 24px;
+            justify-content: center;
+            align-items: center;
+           
+
+            h6 {
+              font-family: Poppins-Regular;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 32px;
+              color: $ColorDrak;
+            }
+          }
+          .second {
+            margin-left: 24px;
+            background: #fde4a6;
+          }
+        }
+        .line--2 {
+          margin: 0 0 20px 60px;
+          .black {
+            background: $ColorDrak;
+            border-radius: 40px;
+            border: none;
+            padding: 5px 24px;
+            justify-content: center;
+            align-items: center;
+           
+
+            h6 {
+              font-family: Poppins-Regular;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 32px;
+              color: $ColorWhite;
+            }
+          }
+          .second {
+            margin-left: 24px;
+            background: #535460;
           }
         }
       }
